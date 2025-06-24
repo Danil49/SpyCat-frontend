@@ -1,9 +1,7 @@
-/* Basic styles without Tailwind for now */
-* {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 
 html,
 body {
